@@ -1,0 +1,39 @@
+body {
+  background-image: url("img/honey-dew.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: transparent;
+}
+
+td:hover {
+  /*opacity: 0.1;*/
+}
+
+.vertical {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.horizontal {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.fa-times, .fa-circle {
+  color: black;
+}
